@@ -1,115 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
 <html>
 <scroll-container>
   <center>
-
     <head id="cabecera">
-      <!-- <link media="screen" href="./style.css" type="text/css" rel="stylesheet"> -->
+        <title>DANSport</title>
+      
+
       <link media="screen" href="./css/materialize.css" type="text/css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!-- <link media="screen" href="./estructura.css" type="text/css" rel="stylesheet"> -->
-      <!-- <h1 class="clase2">DANSport</h1> -->
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
   </center>
 
   <body>
-    <!-- Page Content goes here -->
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper extra 212121 grey darken-4" role="navigation" tabindex="-1">
+        <div class="nav-wrapper extra container" tabindex="-1"><a id="logo-container" href="principal.html" class="brand-logo">DANSport</a>
+          <ul class="right hide-on-med-and-down" tabindex="-1">
+            <li><a href="principal.html">Inicio</a></li>
+            <li> <a href="mujer.html"> Mujer </a> </li>
+            <li> <a href="hombre.html"> Hombre </a> </li>
+            <li> <a href="child.html"> Ni&ntildeos </a> </li>
+            <li> <a href="contacto.html"> Conócenos </a> </li>
+            <li> <a href="descuentos.html"> Descuentos </a> </li>
+          </ul>
 
-    <nav>
-      <div class="nav-wrapper deep-purple lighten-3">
-        <a href="" class="brand-logo">DANSport</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li> <a href="#"> Deportes </a> </li>
-          <li> <a href="#"> Noticias </a> </li>
-          <li> <a href="#"> Mujer </a> </li>
-          <li> <a href="#"> Equipamiento</a> </li>
-          <li> <a href="#"> Salud&nbspy Bienestar</a> </li>
-          <li> <a href="#"> Descuentos</a> </li>
-          <li> <a href="#"> Marcas</a> </li>
+        <ul id="nav-mobile" class="sidenav" tabindex="-1">
+          <li><a href="principal.html">Inicio</a></li>
+          <li> <a href="mujer.html"> Mujer </a> </li>
+          <li> <a href="hombre.html"> Hombre </a> </li>
+          <li> <a href="child.html"> Ni&ntildeos </a> </li>
+          <li><a href="contacto.html">Conócenos</a></li>
+          <li><a href="descuentos.html">Descuentos</a></li>
         </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
-
+  </div>
 
     <nav>
-      <div class="nav-wrapper deep-purple lighten-2">
-        <form>
-          <div class="input-field">
-            <input id="search" type="search" required>
-            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
+      <div class="nav-wrapper deep-orange lighten-1" tabindex="0">
+        
+        <div class="container section">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="search" type="text" placeholder="Buscar" class="autocomplete">
+              <label for="search"><i class="material-icons">search</i></label>
           </div>
-        </form>
+        </div>
+        
       </div>
     </nav>
 
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/gris.webp"> <!-- random image -->
+          <div class="caption center-align">
+            <h1 class="light black-text ">DANSport</h1>
+            <h3 class="light black-text text-lighten-3">Tienda de equipamento deportivo</h3>
+          </div>
+        </li>
+        <li>
+          <img src="img/nadal.webp">
+          <div class="caption left-align">
+          </div>
+        </li>
+        <li>
+          <img src="img/nike.webp">
+          <div class="caption left-align">
+          </div>
+        </li>
+        <li>
+          <img src="img/zapato.webp">
+          <div class="caption left-align">
+          </div>
+        </li>
+      </ul>
+    </div>
 
-
-    <!-- <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div> -->
-
-    <!-- <div id="contenedor">
-        <div id="cabecera">
-            <div id="menuhorizontal">
-            <nav><ul>
-                <li> <a href="#"> Deportes </a> </li>
-                <li> <a href="#"> Noticias </a> </li>
-                <li> <a href="#"> Mujer </a> </li>
-                <li> <a href="#"> Equipamiento</a> </li>
-                <li> <a href="#"> Salud&nbspy Bienestar</a> </li>
-                <li> <a href="#"> Descuentos</a> </li>
-                <li> <a href="#"> Marcas</a> </li>
-            </nav></ul>
-            </div>
-        </div>
-        </div> -->
-    <div class="container">
-      <h3>INICIO</h3>
+      <h2 class="subtitle">Mas de DANSport<h2>
       <div class="row">
-        <div class="col s6">
+        <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/12/16/16396875089695.jpg">
+              <div href="#child" class="card-image waves-effect waves-block waves-light">
+                <a href="child.html"> <img src="img/niños.jpg">
+              </div>
+            </div>
+              <div class="card-content deep-orange lighten-1">
+                <span class="card-title white-text">Niños</span>
+              </div>
+            </div>
+          </div>
+        <div class="col s4">
+          <div class="card">
+            <div href="#hombre" class="card-image waves-effect waves-block waves-light">
+              <a href="hombre.html"> <img src="img/men.webp">
+            </div>
+            <div class="card-content deep-orange lighten-1">
+              <span class="card-title white-text">Hombre</span>
             </div>
           </div>
         </div>
-
-        <div class="col s6">
+        <div class="col s4">
           <div class="card">
-            <div class="card-image">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Football_iu_1996.jpg">
+            <div href="#mujer" class="card-image waves-effect waves-block waves-light">
+              <a href="mujer.html"> <img src="img/mujer.jpg" tab></a>
+            </div>
+            <div class="card-content deep-orange lighten-1">
+              <span class="card-title white-text">Mujer</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col s6">
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_706,c_limit/6b68a809-e5fa-4228-85ef-e0db636ce083/site-oficial-de-nike.jpg">
-            </div>
-          </div>
-        </div>
-
-        <div class="col s6">
-          <div class="card">
-            <div class="card-image">
-              <img
-                src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/esES/Images/mens_1_tcm190-819364.png">
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <h3>Noticias</h3>
+      <h2 class="subtitle">Noticias</h3>
       <div class="row">
         <div class="col s6">
           <div class="card large">
             <div class="card-image">
               <img
-                src="https://phantom-elmundo.unidadeditorial.es/84d2ad32e227a7a5894fc9802c905c5f/crop/256x153/3021x1996/resize/656/f/webp/assets/multimedia/imagenes/2022/03/21/16478748391956.jpg">
+                src="https://phantom-elmundo.unidadeditorial.es/84d2ad32e227a7a5894fc9802c905c5f/crop/256x153/3021x1996/resize/656/f/webp/assets/multimedia/imagenes/2022/03/21/16478748391956.jpg" alt="Imagen del Titula de Rafa Nadal">
               <span class="card-title">Indiana Wells</span>
             </div>
             <div class="card-content">
@@ -126,7 +140,7 @@
           <div class="card large ">
             <div class="card-image">
               <img
-                src="https://phantom-elmundo.unidadeditorial.es/601008325ea2d90d4ef230561b1c4b8f/resize/382/f/webp/assets/multimedia/imagenes/2022/03/21/16478177268276.jpg">
+                src="https://phantom-elmundo.unidadeditorial.es/601008325ea2d90d4ef230561b1c4b8f/resize/382/f/webp/assets/multimedia/imagenes/2022/03/21/16478177268276.jpg" alt="Imagen de Xavi" >
               <span class="card-title">LaLiga</span>
             </div>
             <div class="card-content">
@@ -138,64 +152,53 @@
             </div>
           </div>
         </div>
+    </div>
 
-
-        <div id="box3">
-          <div class="clase3">
-            <h3>Enlaces:</h3>
-            <table>
-              <tr>
-                <td>
-                  <a href="https://www.nike.com/es/">NIKE</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://www.elmundo.es/deportes.html">ELMUNDO</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://www.atptour.com/es/">ATP</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://www.wtatennis.com/">WTA</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://www.fifa.com/es">FIFA</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://www.fiba.basketball/es">FIBA</a>
-                </td>
-              </tr>
-            </table>
+  <h2 class="subtitle">Nuestros deportistas<h2>
+      <div class="row">
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img src="img/dep1.webp" alt="Imagen de Simone Biles">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img src="img/dep2.webp" alt="Imagen de Rafael Nadal" >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card">
+            <div class="card-imag">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img src="img/dep5.jpg" alt="Imagen de Alexia Putellas">
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-    <div class="box-wrapper">
+  </div>
 
-      <footer class="page-footer purple lighten-3">
+    <div class="box-wrapper">
+      <footer class="page-footer grey darken-3">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
               <h5 class="white-text">Suscribete a nuestra Newsletter</h5>
               <form>
                 Ingresa tu correo electrónico: <input type="text" name="correoelectrónico">
-                <button class="btn waves-effect deep-purple lighten-2" type="submit" name="action">Enviar
+                <button class="btn waves-effect deep-orange lighten-1" type="submit" name="action">Enviar
                   <i class="material-icons right">send</i>
                 </button>
               </form>
-              <h5 class="white-text">Sobre nosotras</h5>
-              <!-- <h2>Sobre nosotras</h2> -->
-              <p class="grey-text text-lighten-4">Tienda de venta de equipamiento deportivo.</p>
+
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Realizado por:</h5>
@@ -208,15 +211,20 @@
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
+        <div class="footer-copyright deep-orange lighten-1 black-text">
           <div class="container">
             © 2022 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="https://github.com/UYA-21-22/Materialize.git">GitHub</a>
+            <a class="black-text right" href="https://github.com/UYA-21-22/proyectoConvJunio">GitHub</a>
           </div>
         </div>
       </footer>
     </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/autocomplete.js"></script>
   </body>
 </scroll-container>
-
 </html>

@@ -4,6 +4,9 @@
 #cabecera {
   float: left;
   width: 150px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 #menu {
   float: left;
