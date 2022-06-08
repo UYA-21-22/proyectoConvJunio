@@ -4,7 +4,7 @@
 <scroll-container>
   <center>
     <head id="cabecera">
-        <title>DANSport</title>
+        <title tabindex="1">DANSport</title>
       
 
       <link media="screen" href="./css/materialize.css" type="text/css" rel="stylesheet">
@@ -16,15 +16,15 @@
 
   <body>
     <div class="navbar-fixed">
-      <nav class="nav-wrapper extra 212121 grey darken-4" role="navigation" tabindex="-1">
+      <nav class="nav-wrapper extra 212121 grey darken-4" role="navigation" tabindex="2">
         <div class="nav-wrapper extra container" tabindex="-1"><a id="logo-container" href="principal.html" class="brand-logo">DANSport</a>
           <ul class="right hide-on-med-and-down" tabindex="-1">
-            <li><a href="principal.html">Inicio</a></li>
-            <li> <a href="mujer.html"> Mujer </a> </li>
-            <li> <a href="hombre.html"> Hombre </a> </li>
-            <li> <a href="child.html"> Ni&ntildeos </a> </li>
-            <li> <a href="contacto.html"> Conócenos </a> </li>
-            <li> <a href="descuentos.html"> Descuentos </a> </li>
+            <li><a href="principal.html" tabindex="0">Inicio</a></li>
+            <li> <a href="mujer.html" tabindex="0"> Mujer </a> </li>
+            <li> <a href="hombre.html" tabindex="0"> Hombre </a> </li>
+            <li> <a href="child.html" tabindex="0"> Ni&ntildeos </a> </li>
+            <li> <a href="contacto.html" tabindex="0""> Conócenos </a> </li>
+            <li> <a href="descuentos.html" tabindex="0""> Descuentos </a> </li>
           </ul>
 
         <ul id="nav-mobile" class="sidenav" tabindex="-1">
@@ -35,7 +35,7 @@
           <li><a href="contacto.html">Conócenos</a></li>
           <li><a href="descuentos.html">Descuentos</a></li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons" tabindex="0">menu</i></a>
       </div>
     </nav>
   </div>
@@ -43,11 +43,11 @@
     <nav>
       <div class="nav-wrapper deep-orange lighten-1" tabindex="0">
         
-        <div class="container section">
-          <div class="row">
-            <div class="input-field col s6">
+        <div class="container section" tabindex="-1">
+          <div class="row" tabindex="-1">
+            <div class="input-field col s6" tabindex="-1">
               <input id="search" type="text" placeholder="Buscar" class="autocomplete">
-              <label for="search"><i class="material-icons">search</i></label>
+              <label for="search"><i class="material-icons" tabindex="-1">search</i></label>
           </div>
         </div>
         
@@ -58,9 +58,9 @@
       <ul class="slides">
         <li>
           <img src="img/gris.webp"> <!-- random image -->
-          <div class="caption center-align">
-            <h1 class="light black-text ">DANSport</h1>
-            <h3 class="light black-text text-lighten-3">Tienda de equipamento deportivo</h3>
+          <div class="caption center-align" tabindex="0">
+            <h1 class="light black-text " tabindex="0">DANSport</h1>
+            <h3 class="light black-text text-lighten-3" tabindex="0">Tienda de equipamento deportivo</h3>
           </div>
         </li>
         <li>
@@ -81,50 +81,50 @@
       </ul>
     </div>
 
-      <h2 class="subtitle">Mas de DANSport<h2>
+      <h2 class="subtitle" tabindex="0">Mas de DANSport<h2>
       <div class="row">
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <div href="#child" class="card-image waves-effect waves-block waves-light">
-                <a href="child.html"> <img src="img/niños.jpg">
+        <div class="col s4" tabindex="-1">
+          <div class="card" tabindex="-1">
+            <div class="card-image" tabindex="-1">
+              <div href="#child" class="card-image waves-effect waves-block waves-light" tabindex="-1">
+                <a href="child.html" tabindex="0"> <img src="img/niños.jpg" alt="Sección  de niños">
               </div>
             </div>
-              <div class="card-content deep-orange lighten-1">
-                <span class="card-title white-text">Niños</span>
+              <div class="card-content deep-orange lighten-1" tabindex="-1">
+                <span class="card-title white-text" tabindex="-1">Niños</span>
               </div>
             </div>
           </div>
-        <div class="col s4">
-          <div class="card">
+        <div class="col s4" tabindex="-1">
+          <div class="card" tabindex="-1">
             <div href="#hombre" class="card-image waves-effect waves-block waves-light">
-              <a href="hombre.html"> <img src="img/men.webp">
+              <a href="hombre.html" tabindex="0"> <img src="img/men.webp" alt="Sección de hombres">
             </div>
-            <div class="card-content deep-orange lighten-1">
-              <span class="card-title white-text">Hombre</span>
+            <div class="card-content deep-orange lighten-1" tabindex="-1">
+              <span class="card-title white-text" tabindex="-1">Hombre</span>
             </div>
           </div>
         </div>
-        <div class="col s4">
-          <div class="card">
-            <div href="#mujer" class="card-image waves-effect waves-block waves-light">
-              <a href="mujer.html"> <img src="img/mujer.jpg" tab></a>
+        <div class="col s4" tabindex="-1">
+          <div class="card" tabindex="-1">
+            <div href="#mujer" class="card-image waves-effect waves-block waves-light" tabindex="-1">
+              <a href="mujer.html" tabindex="0"> <img src="img/mujer.jpg" alt="Sección de mujer" tab></a>
             </div>
-            <div class="card-content deep-orange lighten-1">
-              <span class="card-title white-text">Mujer</span>
+            <div class="card-content deep-orange lighten-1" tabindex="-1">
+              <span class="card-title white-text" tabindex="-1">Mujer</span>
             </div>
           </div>
         </div>
       </div>
 
-      <h2 class="subtitle">Noticias</h3>
+      <h2 class="subtitle" tabindex="0">Noticias</h3>
       <div class="row">
         <div class="col s6">
           <div class="card large">
             <div class="card-image">
               <img
                 src="https://phantom-elmundo.unidadeditorial.es/84d2ad32e227a7a5894fc9802c905c5f/crop/256x153/3021x1996/resize/656/f/webp/assets/multimedia/imagenes/2022/03/21/16478748391956.jpg" alt="Imagen del Titula de Rafa Nadal">
-              <span class="card-title">Indiana Wells</span>
+              <span class="card-title" tabindex="0">Indiana Wells</span>
             </div>
             <div class="card-content">
               <p>El fin de la racha de Nadal y los problemas para respirar en la final: "Es como si tuviera una aguja
@@ -141,7 +141,7 @@
             <div class="card-image">
               <img
                 src="https://phantom-elmundo.unidadeditorial.es/601008325ea2d90d4ef230561b1c4b8f/resize/382/f/webp/assets/multimedia/imagenes/2022/03/21/16478177268276.jpg" alt="Imagen de Xavi" >
-              <span class="card-title">LaLiga</span>
+              <span class="card-title" tabindex="0">LaLiga</span>
             </div>
             <div class="card-content">
               <p>La primera gran obra maestra de Xavi: "Pudimos haber marcado muchos más goles</p>
@@ -154,11 +154,11 @@
         </div>
     </div>
 
-  <h2 class="subtitle">Nuestros deportistas<h2>
+  <h2 class="subtitle" tabindex="0">Nuestros deportistas<h2>
       <div class="row">
         <div class="col s4">
           <div class="card">
-            <div class="card-image">
+            <div class="card-image" tabindex="0">
               <div class="card-image waves-effect waves-block waves-light">
                 <img src="img/dep1.webp" alt="Imagen de Simone Biles">
               </div>
@@ -167,7 +167,7 @@
         </div>
         <div class="col s4">
           <div class="card">
-            <div class="card-image">
+            <div class="card-image" tabindex="0">
               <div class="card-image waves-effect waves-block waves-light">
                 <img src="img/dep2.webp" alt="Imagen de Rafael Nadal" >
               </div>
@@ -176,7 +176,7 @@
         </div>
         <div class="col s4">
           <div class="card">
-            <div class="card-imag">
+            <div class="card-image" tabindex="0">
               <div class="card-image waves-effect waves-block waves-light">
                 <img src="img/dep5.jpg" alt="Imagen de Alexia Putellas">
               </div>
@@ -186,12 +186,12 @@
       </div>
   </div>
 
-    <div class="box-wrapper">
+    <div class="box-wrapper" tabindex="0">
       <footer class="page-footer grey darken-3">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Suscribete a nuestra Newsletter</h5>
+              <h5 class="white-text" tabindex="0">Suscribete a nuestra Newsletter</h5>
               <form>
                 Ingresa tu correo electrónico: <input type="text" name="correoelectrónico">
                 <button class="btn waves-effect deep-orange lighten-1" type="submit" name="action">Enviar
@@ -200,7 +200,7 @@
               </form>
 
             </div>
-            <div class="col l4 offset-l2 s12">
+            <div class="col l4 offset-l2 s12" tabindex="0">
               <h5 class="white-text">Realizado por:</h5>
               <ul>
                 <li><a class="chip">Stephanie Andreína Arismendi Escobar</a></li>
@@ -214,7 +214,7 @@
         <div class="footer-copyright deep-orange lighten-1 black-text">
           <div class="container">
             © 2022 Copyright Text
-            <a class="black-text right" href="https://github.com/UYA-21-22/proyectoConvJunio">GitHub</a>
+            <a class="black-text right" href="https://github.com/UYA-21-22/proyectoConvJunio" tabindex="-1">GitHub</a>
           </div>
         </div>
       </footer>
