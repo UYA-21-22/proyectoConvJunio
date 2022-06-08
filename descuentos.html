@@ -15,25 +15,26 @@
 
   <body>
     <nav class="nav-wrapper grey darken-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">DANSport</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html" alt="Ir a la pagina de inicio">Inicio</a></li>
-          <li> <a href="mujer.html" alt="Ir a la pagina de mujer"> Mujer </a> </li>
-          <li> <a href="hombre.html" alt="Ir a la pagina de hombre"> Hombre </a> </li>
-          <li> <a href="child.html" alt="Ir a la pagina de niño"> Ni&ntildeos </a> </li>
-          <li> <a href="contacto.html" alt="Ir a la pagina de conocenos"> Conócenos </a> </li>
-          <li> <a href="descuentos.html" alt="Ir a la pagina de descuentos"> Descuentos </a> </li>
+      <div class="nav-wrapper container" tabindex="-1"><a id="logo-container" href="index.html" class="brand-logo"
+          tabindex="1">DANSport</a>
+        <ul class="right hide-on-med-and-down" tabindex="2">
+          <li><a href="index.html" alt="Ir a la pagina de Inicio">Inicio</a></li>
+          <li> <a href="mujer.html" alt="Ir a la pagina de Mujer"> Mujer </a> </li>
+          <li> <a href="hombre.html" alt="Ir a la pagina de Hombre"> Hombre </a> </li>
+          <li> <a href="child.html" alt="Ir a la pagina de Niños"> Ni&ntildeos </a> </li>
+          <li> <a href="contacto.html" alt="Ir a la pagina de Conócenos"> Conócenos </a> </li>
+          <li> <a href="descuentos.html" alt="Ir a la pagina de Descuentos"> Descuentos</a> </li>
         </ul>
-  
-        <ul id="nav-mobile" class="sidenav">
-          <li><a href="index.html" alt="Ir a la pagina de inicio">Inicio</a></li>
-          <li> <a href="mujer.html" alt="Ir a la pagina de mujer"> Mujer </a> </li>
-          <li> <a href="hombre.html" alt="Ir a la pagina de hombre"> Hombre </a> </li>
-          <li> <a href="child.html" alt="Ir a la pagina de niño"> Ni&ntildeos </a> </li>
-          <li><a href="contacto.html"a lt="Ir a la pagina de conocenos" >Conócenos</a></li>
-          <li><a href="descuentos.html" alt="Ir a la pagina de descuentos">Descuentos</a></li>
+
+        <ul id="nav-mobile" class="sidenav" tabindex="0">
+          <li tabindex="-1"><a href="index.html" alt="Ir a la pagina de Inicio">Inicio</a></li>
+          <li tabindex="-1"> <a href="mujer.html" alt="Ir a la pagina de Mujer"> Mujer </a> </li>
+          <li tabindex="-1"> <a href="hombre.html" alt="Ir a la pagina de Hombre"> Hombre </a> </li>
+          <li tabindex="-1"> <a href="child.html" alt="Ir a la pagina de Niños"> Ni&ntildeos </a> </li>
+          <li tabindex="-1"><a href="contacto.html" alt="Ir a la pagina de Conócenos">Conócenos</a></li>
+          <li tabindex="-1"><a href="descuentos.html" alt="Ir a la pagina de Descuentos">Descuentos</a></li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger" tabindex="1"><i class="material-icons">menu</i></a>
       </div>
     </nav>
 
@@ -54,8 +55,8 @@
     <nav>
       <div class="nav-wrapper deep-orange lighten-2">
         <div class="col s12 m4 l2">
-          <a href="index.html" alt="Ir a la pagina de Inicio" class="breadcrumb">Inicio</a>
-          <a href="descuentos.html" alt="Ir a la pagina de descuentos" class="breadcrumb">Descuentos</a>
+          <a href="index.html" alt="Ir a la pagina de Inicio" class="breadcrumb" tabindex="0">Inicio</a>
+          <a href="descuentos.html" alt="Ir a la pagina de descuentos" class="breadcrumb" tabindex="0">Descuentos</a>
         </div>
       </div>
     </nav>
@@ -208,12 +209,12 @@
     <!--Pie de pagina-->
 
     <div class="box-wrapper">
-      <footer class="page-footer grey darken-3" tabindex="0">
+      <footer class="page-footer grey darken-3" tabindex="-1">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Suscribete a nuestra Newsletter</h5>
-              <form>
+              <h5 class="white-text" tabindex="0">Suscribete a nuestra Newsletter</h5>
+              <form tabindex="0">
                 Ingresa tu correo electrónico: <input type="text" name="correoelectrónico">
                 <button class="btn waves-effect deep-orange lighten-1" type="submit" name="action">Enviar
                   <i class="material-icons right">send</i>
@@ -235,7 +236,7 @@
         <div class="footer-copyright deep-orange lighten-1 black-text">
           <div class="container">
             © 2022 Copyright Text
-            <a class="black-text right" href="https://github.com/UYA-21-22/proyectoConvJunio" alt="Ir al GitHub del proyecto" tabindex="-1">GitHub</a>
+            <a class="black-text right" href="https://github.com/UYA-21-22/proyectoConvJunio" tabindex="-1">GitHub</a>
           </div>
         </div>
       </footer>
