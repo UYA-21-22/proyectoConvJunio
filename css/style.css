@@ -56,23 +56,11 @@ footer.page-footer {
   margin: 0;
 }
 
-
 .subtitle {
   font-size: 30px;
   font-weight: 400;
 }
 
-.grid {
-  display: grid;
-  background-color: rgb(247, 232, 11);
-  border: 10px solid rgba(214, 20, 20, 0);
-  margin: 10px 0;
-  text-align: center;
-  line-height: 50px;
-  font-size: 28px;
-  color: rgb(0, 0, 0);
-  padding: 50px;
-}
 .contenedor{
   position: relative;
   height: 100%;
